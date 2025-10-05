@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script seedhub "})
-     
+     local Tab1o = MakeTab({Name = "Scripts plants vs brainrots"})
+     local Tab2o = MakeTab({Name = "Scripts Hunty Zombie "})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Seedhub x NoKey:>",
+     Name = "Seedhub xe Nokey:>",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
   end
@@ -46,5 +46,82 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "blessedseedhub x NoKey:>",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Plants-Vs-Brainrots.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "zee hub x NoKey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub-HZ"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "kaisenlmao x NoKey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
+  end
+  })loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Locdepzai",
+         Animation = "Youtube:không có yt"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=75825391614903",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Scripts plants vs brainrots"})
+     local Tab2o = MakeTab({Name = "Scripts Hunty Zombie "})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Seedhub xe Nokey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+  end
+  })
+  
+  
+  AddButton(Tab1o, {
+     Name = "blessedseedhub x NoKey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/Plants-Vs-Brainrots.lua"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "zee hub x NoKey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://zuwz.me/Ls-Zee-Hub-HZ"))()
+  end
+  })
+  
+  AddButton(Tab2o, {
+     Name = "kaisenlmao x NoKey:>",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
   end
   })
