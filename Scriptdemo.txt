@@ -120,7 +120,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
   
   AddButton(Tab2o, {
-     Name = "kaisenlmao x NoKey:>",
+     Name = "kaisenlmao x có key nhưng xịn:>",
     Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua"))()
   end
